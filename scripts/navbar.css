@@ -4,7 +4,7 @@
 }
 
 body{
-    font-family: font-family: "poppins",-apple-system,BlinkMacSystemFont,Roboto,"Arial",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";;
+    font-family:'Ibarra Real Nova', serif;
 }
 
 #navb{
@@ -69,6 +69,6 @@ img{
 
 a{
     text-decoration: none;
-    font-size: 180%;
+    font-size: 130%;
     color:#0f1b29;;
 }
