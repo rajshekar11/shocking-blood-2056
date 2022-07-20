@@ -21,7 +21,7 @@ return `
             <div id="himg">
                 <a href="index.html">
                     <img src="https://about.codecov.io/wp-content/themes/codecov/assets/brand/logos/codecov.svg" alt="">
-                </a>
+               </a>
             </div>
             
             <div><a href="product.html" class="navfle">Product</a></div>
