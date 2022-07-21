@@ -6,8 +6,10 @@
 }
 #footer_main {
   width: 100%;
-  position: fixed;
+  margin-top: 30px;
+  /* position: absolute;
   bottom: 0%;
+  height: 550px; */
 }
 .footer_top {
   position: relative;
