@@ -7,7 +7,7 @@ return `
 
             <div id="heade">
 
-                 
+                  
         
             
                    New! Open Beta: Impact Analysis – Get runtime info on your project directly in your workflow.
@@ -36,7 +36,7 @@ return `
 
             <div><a href="contact.html" class="navfle">Contact</a></div>
 
-            <div><a href="signup.html" class="navfle">Sign-Up/Login</a></div>
+            <div><a href="signup.html" class="navfle">Login</a></div>
 
             
 
