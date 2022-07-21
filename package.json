@@ -1,0 +1,23 @@
+{
+  "name": "shocking-blood-2056",
+  "version": "1.0.0",
+  "description": "Project Title: Clone of https://codecov.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajshekar11/shocking-blood-2056.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajshekar11/shocking-blood-2056/issues"
+  },
+  "homepage": "https://github.com/rajshekar11/shocking-blood-2056#readme",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}

@@ -1,38 +1,111 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+   <link rel="stylesheet" href="styles/index.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=Ibarra+Real+Nova&family=Inter:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/navbarraj.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+  </head>
 
-<link rel="stylesheet" href="scripts\navbar.css">
+  <body>
+    <div id="page_container">
+      <div class="bg_image_one">
+        <div id="navb"></div>
+        <div id="top_home_page">
+          <div id="displayKeliye">
+            <div>
+              <h1>Shipping reliable code doesn’t have to slow you down.</h1>
+              <p>
+                Join 1M+ developers worldwide in developing stable software
+                faster with Codecov.
+              </p>
+            <div class="getstarteddisplay">  <button><a href="https://about.codecov.io/sign-up">Get Started</a></button>
+                <p><a href="https://about.codecov.io/demo/">Schedule a Demo</a></p></div>
+            </div>
+            <div>
+              <img
+                src="https://about.codecov.io/wp-content/themes/codecov/assets/templates/home/pull-request-comments.svg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div id="new">
+           <h6>29,000+ ORGANIZATIONS ARE ALREADY USING CODECOV</h6>
+           <div class="displayfleximagestop_section">
+          <a href="https://www.lyft.com/">  <img src="https://about.codecov.io/wp-content/uploads/2020/10/lyft.svg" alt=""></a>
+          <a href="https://about.codecov.io/wp-content/uploads/2021/06/hitachi.svg">  <img src="https://about.codecov.io/wp-content/uploads/2021/06/hitachi.svg" alt=""></a>
+          <a href="https://www.wework.com/">  <img src="https://about.codecov.io/wp-content/uploads/2021/06/Hewlett_Packard_Enterprise_logo.svg" alt=""></a>
+           <a href="https://about.codecov.io/wp-content/uploads/2021/06/gatspy.svg"> <img src="https://about.codecov.io/wp-content/uploads/2022/05/Logo-Robinhood.png" alt=""></a>
+          <a href="https://www.washingtonpost.com/">  <img src="https://about.codecov.io/wp-content/uploads/2020/08/the-washington-post.svg" alt=""></a>
+          <a href="https://www.python.org/">  <img src="https://about.codecov.io/wp-content/uploads/2021/06/EquityZen-Logo-2.svg" alt=""></a>
+           </div>
+          </div>
+         
+        </div>
+      </div>
+      <div id="new_2day">
+        <h2>Development cycles are spinning faster than ever...</h2>
 
+        <div class="newDay_two">
+          <img src="https://about.codecov.io/wp-content/themes/codecov/assets/templates/home/devops.svg" alt="">
+         <div> <p>With everything from doorbells to rockets running on code, it's more important than ever to ensure quality code is being delivered with every release.</p>
+          <p>Code coverage is one of the most important metrics companies rely on to ship healthier code, faster, and with less risk.</p>
+          <p>
+            Codecov gives companies actionable coverage insights when and where they need them to ensure they are shipping quality code.</p></div>
+        </div>
+      </div>
+      <div class="bg_image_two">
+        <div id="displayKeliye">
+            <div>
+              <h2>How Codecov helps...</h2>
+              <!-- <p>
+                Join 1M+ developers worldwide in developing stable software
+                faster with Codecov.
+              </p>
+              <button>Get Started</button>
+              <p>Schedule a Demo</p> -->
+            </div>
+          </div>
 
-<body>
-
-    <div id="navb">
-
-      
-
-
-
-
+          
+        </div>
+        <div class="below_bg_two_mid_content">
+                
+               
+        </div>
+        <div class="bg_image_three"></div>
+      </div>
     </div>
-
-    
-
-
-    
-</body>
+    <!-- started here -->
+    <footer>
+      <div id="footer_main"></div>
+    </footer>
+  </body>
 </html>
 
-<script type="module">
+<script src="script/index.js" type="module"></script>
 
-    import {navbar} from './script/navbar.js'
-
-    document.getElementById('navb').innerHTML = navbar();
-    
-
+<script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement(
+      { pageLanguage: "en" },
+      "google_translate_element"
+    );
+  }
+  document
+    .getElementById("google_translate_element")
+    .addEventListener("click", () => {
+      document.getElementById("google_translate_element").style.color = "black";
+    });
 </script>
 
+<script
+  type="text/javascript"
+  src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+></script>
