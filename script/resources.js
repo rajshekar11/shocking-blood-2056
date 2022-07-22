@@ -3,7 +3,7 @@
 
 
 
-var data =data=[
+var data=[
     {
         
     
@@ -93,7 +93,7 @@ var data =data=[
     {
         
     
-        img : "https://about.codecov.io/wp-content/uploads/2021/0…ov-with-C-and-GitHub-Actions-4-e1623430205538.png",
+        img : "https://about.codecov.io/wp-content/uploads/2022/03/featured-image.png",
        h4  : "Blog Post",
        h1  : "How to Set Up Codecov with C and GitHub Actions",
        ig: "https://about.codecov.io/wp-content/uploads/2021/04/1602422364613.jpeg",
@@ -106,7 +106,7 @@ var data =data=[
     {
         
     
-        img : "https://about.codecov.io/wp-content/uploads/2021/0…ov-with-C-and-GitHub-Actions-4-e1623430205538.png",
+        img : "https://about.codecov.io/wp-content/uploads/2022/06/0622_ProjectInsights.jpg",
        h4  : "Blog Post",
        h1  : "Measuring PHP Code Coverage with PHPUnit and GitHub Actions",
        ig: "https://about.codecov.io/wp-content/uploads/2022/04/1516366211505.jpeg",
@@ -162,6 +162,7 @@ var data =data=[
         data.forEach(element => {
         
         var box = document.createElement("div")
+        box.setAttribute("id","borderbox")
 
         var img = document.createElement("img")
         img.setAttribute("id","ming")
@@ -173,20 +174,44 @@ var data =data=[
         var h1 = document.createElement("h1")
         h1.innerText = element.h1
 
+        var fle = document.createElement("div")
+        fle.setAttribute("class","imgflexe")
+
         var bimg = document.createElement("img")
         bimg.setAttribute("id","bimg")
         bimg.src = element.ig
 
-        var pname = document.createElement("h1")
-        pname.src = element.p
+        var pname = document.createElement("h3")
+        pname.innerText = element.p
+
+        pname.style.color="rgb(211, 19, 51)"
 
         var btn = document.createElement("h4")
+        btn.setAttribute("id","h")
+
+        btn.style.cursor="pointer"
+
+        btn.style.color="rgb(211, 19, 51)"
+
+        btn.addEventListener("click", () =>{
+
+          window.location.href="https://about.codecov.io/blog/how-to-know-if-your-company-should-be-tracking-code-coverage/"
+
+        })
+        
         btn.innerText =element.btn
         
+        var mainf= document.createElement("div")
+        fle.setAttribute("class","imgf")
+
+        mainf.append(bimg,pname)
+
+
+        fle.append(mainf,btn)
 
 
 
-        box.append(img,h,h1,bimg,pname,btn)
+        box.append(img,h,h1,fle)
         document.querySelector("#apper").append(box)
     });
     }
