@@ -36,7 +36,7 @@ body{
 
     text-align: center;
 
-    font-size: 160%;
+    font-size: 120%;
 }
 
 
@@ -69,6 +69,14 @@ img{
 
 a{
     text-decoration: none;
-    font-size: 180%;
+    
+}
+
+.navfle{
+    font-size: 130%;
     color:#0f1b29;;
+}
+
+#dem{
+    background-color: #0f1b29;
 }
