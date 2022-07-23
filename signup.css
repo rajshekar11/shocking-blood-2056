@@ -1,0 +1,18 @@
+#signup{
+    display: grid;
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+#signup>input{
+
+    margin-bottom: 10px;
+    height: 30px;
+
+}
+button{
+  height: 30px;
+  width: 100%;
+  background-color: blueviolet;
+}

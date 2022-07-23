@@ -1,0 +1,60 @@
+#resohea{
+    width: 50%;
+
+    height: 10%;
+
+    /* border: 1px solid black; */
+    margin: auto;
+
+    margin-top: 3%;
+
+
+}
+
+#headex{
+    text-align: center;
+    color: #01050a;
+    line-height: 3.6rem;
+    font-size: 2.6rem;
+    font-weight: 800;
+
+    font-family:  "poppins","-apple-system,BlinkMacSystemFont","Roboto","Arial",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";;
+}
+
+#apper{
+    display: grid;
+    width: 90%;
+    margin-left: 10%;
+    margin-top: 10%;
+    grid-template-columns: repeat(2,1fr);
+    /* border: 1px solid red; */
+    gap: 8%;
+
+}
+
+#apper > div{
+    width: 100%;
+
+    margin-top: -20%;
+
+    /* height: 150%; */
+
+    /* margin-top: 10px; */
+}
+
+/* #apper > div + img{
+    width: 100%;
+
+    height: 3%;
+} */
+
+/* #mimg{
+    width: 100%;
+
+    height: 7%;
+} */
+
+#bimg{
+    width: 15%;
+    height: 20%;
+}
