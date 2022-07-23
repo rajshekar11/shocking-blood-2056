@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles/product.css" />
+    <link rel="stylesheet" href="scripts/navbar.css" />
 </head>
 <style>
 
 
 </style>
-<body> <h1><b>Features</b></h1>
+<body> <div id="navbar"></div><h1><b>Features</b></h1>
     <div id="main"></div>
     <div id="sub">
         <h3>Ready to get covered?</h3>
@@ -65,6 +66,12 @@ code today.Sign up with your code host below.</pre>
 </div>
 </body>
 </html>
+<script type="module">
+
+  import {navbar} from './script/navbar.js'
+
+  document.getElementById('navbar').innerHTML = navbar();
+</script>
 <script src="script/product.js">
     
 </script>
