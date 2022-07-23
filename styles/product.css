@@ -19,7 +19,7 @@
         height:auto;
        
     }
-    img{
+   #main>div>div img{
         width:450px;
         height:250px;
     }
@@ -183,6 +183,22 @@ h5{width:150px;
 #google_translate_element select:hover {
   opacity: 100%;
 }
+body {
+  width: 100%;
+  height:120%;
+  background: url(https://about.codecov.io/wp-content/themes/codecov/assets/backgrounds/bg-blobs-02.svg);
+  background-repeat: no-repeat;
+  background-size: 55%;
+  background-position: top right;
+}
 #google_translate_element {
   margin-top: 10px;
+}
+#main>div>div>h2{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+#main>div>div>p{
+  line-height: 30px;
+  font-size: 20px;
 }
