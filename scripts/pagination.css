@@ -1,0 +1,17 @@
+#pagination{
+
+    display: flex;
+    height: 30px;
+
+   /* border: 1px solid rgb(128, 3, 3); */
+   width: 40%;
+   right: 21.5%;
+   z-index: 1;
+
+   font-size: 20px;
+   color: #f07;
+
+   height: 20px;
+   position: absolute;
+   bottom: -285%;
+  }
