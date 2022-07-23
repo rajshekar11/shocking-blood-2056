@@ -1,3 +1,46 @@
+
+ *{
+  margin: 0;
+  padding: 0;
+}
+#navbar{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+  background-color: rgb(76, 76, 90);
+  color: white;
+  height: 60px;
+  align-items: center;
+  
+}
+#navbar>div{
+
+  display: flex;
+}
+#navbar>div>a{
+  text-decoration: none;
+  color: white;
+  margin: 15px;
+  font-size: 15px;
+}
+#navbar>div>img{
+  width: 30px;
+  height: 30px;
+  /* align-items: center; */
+  margin-top: 13px;
+}
+#learnmore{
+  text-decoration: none;
+  color: white;
+  margin: 20px;
+  font-size: 20px;
+}
+
+
+
+
+
 #signup{
     display: grid;
     width: 20%;
@@ -11,8 +54,52 @@
     height: 30px;
 
 }
+#signup>h2{
+  margin-bottom: 10px;
+}
 button{
   height: 30px;
   width: 100%;
   background-color: blueviolet;
+  border: none;
+}
+
+
+
+
+
+#footer{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid gray;
+  /* justify-content: end; */
+  /* margin-top: 500px; */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  align-self: flex-end;
+  align-content: flex-end;
+}
+#footer>div{
+  display: flex;
+  justify-content: space-between;
+
+}
+#footer>div{
+  margin: 5px;
+}
+#footer>div>img{
+  width: 30xp;
+  height: 30px;
+  margin-top: 10px;
+}
+#footer>div>a{
+  margin: 15px;
+  text-decoration: none;
+  color: rgb(55, 115, 139);
+}
+#footer>div>p{
+  margin: 15px;
+  color: gray;
+
 }
