@@ -1,0 +1,118 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- dfadfdf -->
+<style>
+    #main{
+        width: 600px;
+        height:400px;
+
+display: grid;
+grid-template-columns: repeat(2,200px);
+grid-template-rows: repeat(2,1fr);
+justify-content: space-around;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    }
+    #main>div{
+        width:200px;
+        /* margin: auto; */
+height:auto;
+margin-left: 0px;
+
+margin-top: 10px;
+    }
+   #main>div>div> img{
+width:25px;
+height:25px;
+margin-top: 10px;
+    }
+    #main>div:nth-child(2)>div{
+        width:100%;
+        height: 35px;
+margin: auto;
+gap:10px;
+
+        display: flex;
+    }
+    #main>div>p:hover{
+        cursor: pointer;
+color:#f51862;
+
+    }
+    #main>div>div:hover{
+        cursor: pointer;
+color:#f51862; 
+    }
+    #main>div:last-child{
+
+width:550px;
+display: flex;
+margin-top: 90px;
+
+
+    }
+    
+    
+    button{
+        color:#f51862;
+        width:130px;
+        height: 30px;
+        display: block;
+        margin: auto;
+    }
+    #main>div:last-child>h5{
+        width: 300px;
+        
+    }
+    #bottom{
+        cursor: pointer;
+    }
+</style>
+<body>
+    <div id="main">
+<div><h4>PRODUCT</h4>
+    <p>Features</p>
+    <p>Integrations</p>
+    <p> Documentation</p>
+    <p> API</p>
+    <p>Status</p>
+   
+    
+</div>
+<div>
+    <h4>SOLUTIONS FOR...</h4>
+    <div onclick="g1()"><img src="https://about.codecov.io/wp-content/themes/codecov/assets/brand/icons/solutions/open-source.svg"> <p> Open Source</p></div>
+    <div onclick="g2()"><img src="https://about.codecov.io/wp-content/themes/codecov/assets/brand/icons/solutions/enterprise.svg"> <p> Enterprise</p></div>    
+   
+ <div onclick="g3()"> <img src="https://about.codecov.io/wp-content/themes/codecov/assets/brand/icons/solutions/startups.svg"> <p>Startups</p></div> 
+ <div onclick="g4()"> <img src="https://about.codecov.io/wp-content/themes/codecov/assets/brand/icons/umbrellas/umbrella.svg"> 
+    <p>Education</p></div> </div>
+    <div id="bottom" onclick="bot()"><button>Product Update</button>
+    <h5 style="color:#f51862">Introducing Codecov's New Uploader</h5></div>
+    </div>
+   
+</body>
+</html>
+<script>
+g1=()=>{
+    window.location.href="https://about.codecov.io/for/open-source/";
+}
+g2=()=>{
+    window.location.href="https://about.codecov.io/for/enterprises/";
+}
+g3=()=>{
+    window.location.href="https://about.codecov.io/for/startups/";
+}
+g4=()=>{
+    window.location.href="https://about.codecov.io/for/education/";
+}
+bot=()=>{
+    window.location.href="https://about.codecov.io/blog/introducing-codecovs-new-uploader/";
+}
+
+</script>
