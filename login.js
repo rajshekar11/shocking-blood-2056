@@ -13,6 +13,7 @@ function login() {
             if (data[i].password == password) {
                 console.log(data[i].password)
                 alert("loging successfull")
+                window.location.href="index.html"
             }
             else{
                 alert("wrong password") 
