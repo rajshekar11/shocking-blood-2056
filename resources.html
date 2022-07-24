@@ -6,21 +6,18 @@
     <title>Document</title>
 </head>
 
+<link rel="stylesheet" href="scripts\resfoot.css" />
    <link rel="stylesheet" href="scripts\resource.css">
 
    <link rel="stylesheet" href="scripts\apper.css">
 
    <link rel="stylesheet" href="scripts\res_app.css">
 
+  
+
    <!-- <link rel="stylesheet" href="styles/footer.css" /> -->
 
-   <style>
-
-
-
-
-
-   </style>
+   <link rel="stylesheet" href="scripts\pagination.css">
 
    
 
@@ -85,15 +82,19 @@
 
     </div>
 
-    <!-- <div id="pagination">
-      <h6 onclick="displ()">1</h6>
-      <h6 onclick="displ()">1</h6>
-      <h6 onlick="newdat()">3</h6>
-      <h1 >.</h1>
-      <h1 >.</h1>
-      <h1 >.</h1>
-      <h6 onclick="displ()">15</h6>
-    </div> -->
+    <div id="pagination">
+      <h6 onclick="displ()">1 &nbsp;&nbsp;</h6>
+      <h6 onclick="displ()">2 &nbsp;&nbsp;</h6>
+      <h6 onlick="newdat()">3 &nbsp;&nbsp;</h6>
+      <h1 >-</h1>
+      <h1 >-</h1>
+      <h1 >-</h1>
+      <h6 onclick="displ()">15 &nbsp; >></h6>
+    </div>
+
+    <footer>
+      <div id="footer_main"></div>
+    </footer>
 
 
   </div>
@@ -101,9 +102,7 @@
    
 
 
-    <div id="footer_main">
-
-    </div>
+  
 
     
     
@@ -112,26 +111,46 @@
 
 <script src="script\resources.js"></script>
 
+<!-- <script>
 
-<!-- <script src="./script/index.js" type="module"></script> -->
+document.getElementById("select").addEventListener("onchange", () =>{
+
+let x= document.getElementById("select").value
+
+if(x=="blog")
+{
+  data.filter((el) => {
+
+    return el=="Blog Post"
+  })
+  display(data)
+}
+
+
+})
+
+
+</script> -->
+
+
+
+
+
+
 
 <script type="module">
 
     import {navbar} from './script/navbar.js'
 
     document.getElementById('navb').innerHTML = navbar();
-    
-
-</script>
-
-<!-- <script type="module">
 
 
   import footer from "./script/footer.js";
 
-document.getElementById("footer_main").innerHTML=footer()
+   document.getElementById("footer_main").innerHTML=footer()   
+
+</script>
 
 
-</script> -->
 
 

@@ -748,5 +748,32 @@ a{
     justify-content: space-evenly;
     
 }
-
-
+.container{
+    
+    width:60%;
+    margin:auto;
+    margin-top:150px;
+    font-size: 14px;
+    
+}
+      .faq-item{
+        padding:15px;
+        /* height:40px; */
+        border:1px solid rgb(187, 181, 181);
+        margin-top:5px;
+        
+      }
+      .faq-body{
+        display: none;
+        font-size: 17px;
+      }
+      
+      .faq-inner{
+        padding: 30px;
+      }
+      .faq-plus{
+        float: right;
+        font-size: 20px;
+        cursor: pointer;
+      }
+      

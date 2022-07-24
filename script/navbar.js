@@ -26,17 +26,17 @@ return `
             
             <div><a href="product.html" class="navfle">Product</a></div>
 
-            <div><a href="documentation.html" class="navfle">Documentation</a></div>
+            <div><a href="https://about.codecov.io/product/documentation/" class="navfle">Documentation</a></div>
 
-            <div><a href="customers.html" class="navfle">Customers</a></div>
+            <div><a href="https://about.codecov.io/customers/" class="navfle">Customers</a></div>
 
             <div> <a href="resources.html" class="navfle">Resources</a></div>
 
             <div><a href="pricing.html" class="navfle">Pricing</a></div>
 
-            <div><a href="contact.html" class="navfle">Contact</a></div>
+            <div><a href="https://about.codecov.io/contact/" class="navfle">Contact</a></div>
 
-            <div><a href="signup.html" class="navfle">Login</a></div>
+            <div><a href="Sign-up.html" class="navfle">Login</a></div>
 
             
 

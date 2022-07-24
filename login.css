@@ -1,5 +1,4 @@
-
- *{
+*{
   margin: 0;
   padding: 0;
 }
@@ -41,29 +40,31 @@
 
 
 
-#signup{
+
+#login{
     display: grid;
     width: 20%;
     margin: auto;
+    margin-top: 90px;
+    
     text-align: center;
-    margin-top: 50px;
 }
-#signup>input{
 
+#login>h2{
+  margin-bottom: 10px;
+}
+#login>input{
     margin-bottom: 10px;
     height: 30px;
 
-}
-#signup>h2{
-  margin-bottom: 10px;
 }
 button{
   height: 30px;
   width: 100%;
   background-color: blueviolet;
   border: none;
-}
 
+}
 
 
 

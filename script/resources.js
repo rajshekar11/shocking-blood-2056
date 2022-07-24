@@ -215,3 +215,36 @@ var data=[
         document.querySelector("#apper").append(box)
     });
     }
+
+
+    function displ()
+{
+ window.location.href="https://about.codecov.io/resources/?_paged=2"
+
+
+
+}
+
+function newdat()
+{
+  window.location.href="https://about.codecov.io/resources/?_paged=4"
+}
+
+// ///////////////////////////////////
+
+
+// document.getElementById("select").addEventListener("onchange", () =>{
+
+    let x= document.getElementById("select").value
+    
+    if(x=="blog")
+    {
+      data.filter((el) => {
+    
+        return el=="Blog Post"
+      })
+      display(data)
+    }
+    
+    
+    // })

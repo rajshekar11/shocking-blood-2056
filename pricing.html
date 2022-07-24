@@ -8,6 +8,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap" rel="stylesheet">
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 
 <link rel="stylesheet" href="scripts\price.css">
@@ -400,8 +402,102 @@
     </div>
 
 
+    <div class="container">
+        <div class="row">
+            <div class="faq-wrapper">
+                <div class="faq-inner">
+                    <div class="faq-item">
+                        <h2>Which plan is best for me ?
+                            <span class="faq-plus">&plus;</span>
+                        </h2>
+                        <div class="faq-body">
+                            Pro - this plan is best for small sized teams looking for minimal support.
+
+Enterprise - this plan is best for medium to large sized teams requiring more robust support.
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h2>What defines a user?
+                            <span class="faq-plus">&plus;</span>
+                        </h2>
+                        <div class="faq-body">
+                            A "user" is anyone who authors a pull request or merge request on a private repo with Codecov coverage, or accesses advanced features on Codecov.io for a private repo.
+
+For example, anyone with access to your repos in Github/ Gitlab/ Bitbucket will be able to see Codecov data on the codehost if a user has authored a PR (an example from an open source project, scrapy, is here). Once you click through the Codecov comment you enter Codecov.io to see more robust metrics, historical trends, and coverage visualizations (example from the same PR here ).
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h2>Can I trial Codecov before subscribing to a plan?
+                            <span class="faq-plus">&plus;</span>
+                        </h2>
+                        <div class="faq-body">
+                            Yes, for the first 5 users in your organization, Codecov is totally free.
+
+Need more than 5 users? Reach out to us and we can help up your user count temporarily.
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h2>Does Codecov support multiple languages and/or applications in a single repository (a "monorepo")?
+                            <span class="faq-plus">&plus;</span>
+                        </h2>
+                        <div class="faq-body">
+                            Like a pro! We combine the uploads from multiple languages into a single report while maintaining the original data for each specific language.
+
+For multiple applications, you can use our Flags feature to segment coverage in your repository. With Carryforward Flags , you can partially run your CI and Codecov will carryforward tests not run on that commit.
 
 
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h2>Does Codecov offer support?
+                            <span class="faq-plus">&plus;</span>
+                        </h2>
+                        <div class="faq-body">
+                            Our mission is to improve your development workflow and support is no exception. As a pro customer, we offer you email support 24/5. Our Enterprise plans offer more robust support - including an Enterprise-only SLA, access to a Sr. Solutions Architect for dedicated onboarding support, a Customer Success Manager, and legal attention, if required.
+                    </div>
+                </div>
+                   
+                    <div class="faq-item">
+                        <h2>How does Codecov interact with my source code?
+                            <span class="faq-plus">&plus;</span>
+                        </h2>
+                        <div class="faq-body">
+                            Codecov does not store source code. Codecov will only retrieve source code from your repository for two functions: upon user request and for static analysis. Read more in our Security Docs.
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h2>Does Codecov offer plans for educational use?
+                            <span class="faq-plus">&plus;</span>
+                        </h2>
+                        <div class="faq-body">
+                            Yes! We have partnered with the GitHub Student Developer Pack or you can contact us at education@codecov.io to get more information about our education plans.
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h2>What defines a Private Repo Upload for the Basic Plan?	
+
+                            <span class="faq-plus">&plus;</span>
+                        </h2>
+                        <div class="faq-body">
+                            A Private Repo Upload is one coverage report uploaded to Codecov on a closed source repository, most likely during your CI run process.
+
+Some CI build processes only have one coverage upload per commit, but some may have more than one upload, depending on things like if you are parallelizing your CI build and using Codecov to merge the reports and/or using Codecov's Flags feature.
+
+As an example, this commit from an open source project has 8 uploads (though, because this repo is open source, these uploads wouldn't count against the monthly allotment of Private Repo Uploads).
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    
     
 
 

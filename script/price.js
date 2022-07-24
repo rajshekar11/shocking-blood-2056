@@ -1,5 +1,4 @@
-
- let annual = document.querySelector("#annual")
+let annual = document.querySelector("#annual")
  let monthly = document.querySelector("#monthly")
 
 
@@ -19,3 +18,38 @@
  }
  annual.addEventListener("click",annually)
  monthly.addEventListener("click",month)
+
+//  faq section
+
+
+let plussToMinus = document.querySelectorAll(".faq-plus")
+    // console.log(plus)
+
+    let convertToMinus = (el) =>{
+
+if(el.innerText=="+"){
+  el.innerText ="-"
+  
+  
+  // que.forEach( (elem)=>{
+  //     queToAns(elem)
+    
+  //   console.log(elem)
+  // })
+}
+else{
+  el.innerText = "+"
+}
+    }
+   $(".faq-plus").on('click',function(){
+        $(this).parent().parent().find('.faq-body').slideToggle();
+        
+      });
+
+      plussToMinus.forEach( (el)=>{
+  el.addEventListener("click",function(){
+    convertToMinus(el)
+
+  })
+  console.log(el)
+})
