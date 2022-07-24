@@ -17,5 +17,5 @@ function singup() {
     console.log(data)
     localStorage.setItem("forlogin", JSON.stringify(data))
     alert("signup successfully")
-
+  window.location.href="Login.html"
 }
