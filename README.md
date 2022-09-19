@@ -1,19 +1,16 @@
-Project Title: Clone of https://codecov.io
-
-Manager:
-Shantanu Gajanan
+# Codecov.io clone
 
 Team Lead:
 fw19_0570-Rajashekhara A.E
+
+Manager:
+Shantanu Gajanan
 
 Team Members:
 1.fw18_0427-Kirti Gupta
 2.fw19_0567-Sonia Saini
 3.fw18_0948-Chandan Kumar Singh
 4.fw18_1052-Sudhirkumar Sanjay Shukla
-
-
-# Codecov.io clone
 
 Codecov gives companies actionable coverage insights when and where they need them to ensure they are shipping quality code.
 
